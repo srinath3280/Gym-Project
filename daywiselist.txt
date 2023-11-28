@@ -1,0 +1,44 @@
+[
+    {
+        "Category" : ["Back and Biceps","Back and Biceps","Back and Biceps"],
+        "Workout" : ["Deadlift","Barbell overhand grip row","Barbell underhand grip row"],
+        "Sets" : [2,3,3],
+        "Repetition" : [6,12,12],
+        "Day" : "Day1"
+    },
+    {
+        "Category" : ["Shoulder Chest and Triceps","Shoulder Chest and Triceps","Shoulder Chest and Triceps","Shoulder Chest and Triceps"],
+        "Workout" : ["Knee Pushups","Close grip bench press","Skull crushers","Tricep dips"],
+        "Sets" : [4,4,4,4],
+        "Repetition" : [8,8,8,8],
+        "Day" : "Day2"
+    },
+    {
+        "Category" : ["Biceps","Biceps","Biceps"],
+        "Workout" : ["Barbell overhand grip row","Deadlift","Barbell underhand grip row"],
+        "Sets" : [3,2,3],
+        "Repetition" : [12,6,12],
+        "Day" : "Day3"
+    },
+    {
+        "Category" : ["Triceps Shoulder and Chest","Triceps Shoulder and Chest","Triceps Shoulder and Chest","Triceps Shoulder and Chest"],
+        "Workout" : ["Triceps","Close grip bench press","Knee Pushups","Skull crushers"],
+        "Sets" : [4,2,4,3],
+        "Repetition" : [8,6,8,12],
+        "Day" : "Day4"
+    },
+    {
+        "Category" : ["Front and Biceps","Front and Biceps","Front and Biceps","Front and Biceps"],
+        "Workout" : ["Skull crushers","Deadlift","Barbell overhand grip row","Barbell underhand grip row"],
+        "Sets" : [4,2,3,3],
+        "Repetition" : [5,6,7,8],
+        "Day" : "Day5"
+    },
+    {
+        "Category" : ["Chest Shoulder and Triceps","Chest Shoulder and Triceps","Chest Shoulder and Triceps"],
+        "Workout" : ["Deadlift","Barbell overhand grip row","Barbell underhand grip row"],
+        "Sets" : [3,6,6],
+        "Repetition" : [10,14,14],
+        "Day" : "Day6"
+    }
+]

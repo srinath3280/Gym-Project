@@ -1,0 +1,32 @@
+[
+    {
+        "image" : "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bXxlbnwwfHwwfHx8MA%3D%3D",
+        "Day" : "Day1",
+        "id" : 1
+    },
+    {
+        "image" : "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bXxlbnwwfHwwfHx8MA%3D%3D",
+        "Day" : "Day2",
+        "id" : 2
+    },
+    {
+        "image" : "https://t4.ftcdn.net/jpg/03/17/72/47/360_F_317724775_qHtWjnT8YbRdFNIuq5PWsSYypRhOmalS.jpg",
+        "Day" : "Day3",
+        "id" : 3
+    },
+    {
+        "image" : "https://img.freepik.com/free-photo/gym-with-dumbbells-floor_1340-37013.jpg",
+        "Day" : "Day4",
+        "id" : 4
+    },
+    {
+        "image" : "https://img.freepik.com/premium-photo/gym-with-light-wall-treadmill_808092-1997.jpg",
+        "Day" : "Day5",
+        "id" : 5
+    },
+    {
+        "image" : "https://img.freepik.com/fotos-premium/uma-academia-escura-com-uma-barra-e-uma-placa-que-diz-academia_911201-3368.jpg",
+        "Day" : "Day6",
+        "id" : 6
+    }
+]

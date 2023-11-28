@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+            .head ul{
+                margin-left: auto;
+                margin-right: 200px;
+            }
+            .head ul li a{
+                color: black;
+                font-size: 20px;
+            }
+            .img{
+                margin-left: 100px;
+            }
+            .nav-link:hover{
+                color: white;
+                border-bottom: 2px solid yellow;
+            }
+            tr th{
+                border: 1px solid lightslategray;
+            }
+            tr td{
+                border: 1px solid lightslategray;
+            }
+            .btn-secondary:hover{
+                background-color: skyblue;
+                color: black;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+                <div class="head collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <a class="img navbar-brand" href="">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/017/504/043/small/bodybuilding-emblem-and-gym-logo-design-template-vector.jpg" alt="" width="50px" height="50px">
+                  </a>
+                  <h4>Hello..! <%= username %></h4>
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/workout">Workout</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/report">Report</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/login">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+        <h2 style="text-align: center;">Workout Details</h2>
+        <div style="border: 1px solid lightslategrey;width: 750px; margin-left: auto;margin-right: auto;margin-bottom: 10px;"></div>
+        <div style="margin-top: 50px; border: 1px solid lightsteelblue;width: 800px;padding: 30px;margin-left: auto;margin-right: auto;">
+            
+            <form action="/reportdata/<%= Day %>" method="post">
+                <div style="display: flex;justify-content: space-evenly;">
+                    <table border="1px solid lightgrey" style="text-align: center;">
+                        <thead style="border: 1px solid;">
+                            <tr>
+                                <th>Category</th>
+                                <th>Workouts</th>
+                                <th>Sets</th>
+                                <th>Repetition</th>
+                            </tr>
+                        </thead>
+                        <tbody style="border: 1px solid;">
+                            <% alldata.forEach(data => { %>
+                                <% data.Category.forEach((category, index) => { %>
+                                <tr>
+                                    <td><%= category %></td>
+                                    <td><%= data.Workout[index] %></td>
+                                    <td><%= data.Sets[index] %></td>
+                                    <td><%= data.Repetition[index] %></td>
+                                </tr>
+                                <% }); %>
+                            <% }); %>
+                        </tbody>
+                    </table>
+                    <div style="border: 1px solid lightslategrey;"></div>
+                    <div>
+                        <input type="date" name="date" id="">
+                        <br><br>
+                        <button type="submit" class="btn btn-secondary">Done</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

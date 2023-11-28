@@ -1,0 +1,1 @@
+[{"fullname":"srinath","mobile":"9642031606","email":"lsrinathreddy@gmail.com","password":"123456"},{"fullname":"shiva","mobile":"6302587387","email":"shivaprasadreddy@gmail.com","password":"123456"},{"fullname":"shiva","mobile":"6302587387","email":"shivaprasadreddy@gmail.com","password":"123456"}]
