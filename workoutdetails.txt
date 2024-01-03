@@ -1,11 +1,11 @@
 [
     {
-        "image" : "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bXxlbnwwfHwwfHx8MA%3D%3D",
+        "image" : "https://e1.pxfuel.com/desktop-wallpaper/54/154/desktop-wallpaper-2560x1080-girl-fitness-model-2560x1080-resolution-backgrounds-and.jpg",
         "Day" : "Day1",
         "id" : 1
     },
     {
-        "image" : "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bXxlbnwwfHwwfHx8MA%3D%3D",
+        "image" : "https://i.pinimg.com/736x/1b/a3/89/1ba389706684f84900f7cb4665508dab.jpg",
         "Day" : "Day2",
         "id" : 2
     },
@@ -15,17 +15,17 @@
         "id" : 3
     },
     {
-        "image" : "https://img.freepik.com/free-photo/gym-with-dumbbells-floor_1340-37013.jpg",
+        "image" : "https://www.mensjournal.com/.image/t_share/MTk2MTM3MDYwMDY0MzcxODU3/spiderman.jpg",
         "Day" : "Day4",
         "id" : 4
     },
     {
-        "image" : "https://img.freepik.com/premium-photo/gym-with-light-wall-treadmill_808092-1997.jpg",
+        "image" : "https://watermark.lovepik.com/photo/20211201/large/lovepik-gym-running-workout-picture_501311151.jpg",
         "Day" : "Day5",
         "id" : 5
     },
     {
-        "image" : "https://img.freepik.com/fotos-premium/uma-academia-escura-com-uma-barra-e-uma-placa-que-diz-academia_911201-3368.jpg",
+        "image" : "https://wallpapercave.com/wp/wp5013769.jpg",
         "Day" : "Day6",
         "id" : 6
     }

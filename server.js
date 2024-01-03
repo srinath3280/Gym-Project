@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(cookieParser());
 
 app.get('/',function(req,res){
-    res.sendFile(__dirname+'/login.html')
+    res.sendFile(__dirname+'/homepage.html')
 })
 app.get('/register',function(req,res){
     res.sendFile(__dirname+'/register.html')
